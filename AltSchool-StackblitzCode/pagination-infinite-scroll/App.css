@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* max-width: 400px; */
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(2, 300px);
+}
+
+.grid > * {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.user-card img {
+  /* flex: 0 0 100px; */
+  border-radius: 5px;
+  border: 2px solid lightgreen;
+  margin: 6px;
+}
+
+.user-card p {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.user-card p:first-child {
+  font-weight: 700;
+}
+.user-card p:last-child {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.big {
+  font-size: 40px;
+}
